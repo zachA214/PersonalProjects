@@ -18,12 +18,24 @@ html
 }
 .screenMesh
 {
-    background: grey;
+    height: 100vh !important;
+    width: 200vh !important;
+    left: 1.65em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: auto;
+    margin: auto;
+    background: rgb(39, 39, 39);
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.75s;
 }
 .Content {
     background: rgba(89, 2, 2, 0.95);
     border: 10px solid #333;
-    padding: 20px !important;
+    padding: 20px;
     max-width: 800px;
     position: absolute;
     left: 50%;
@@ -42,6 +54,7 @@ header
     font-size: 24px;
     color: white;
 }
+
 body > .sidePanel
 {
     box-sizing: border-box;
@@ -57,11 +70,13 @@ body > .sidePanel
     background: #333;
     overflow: hidden;
     transition: 0.75s; /*0.75 or 0.25*/
+    z-index: 4;
 }
-.sidePanel:hover
+.sidePanel:hover 
 {
     width: 200px;
 }
+
 .sidePanel:hover .text
 {
     color: #ffffffe1;
@@ -110,4 +125,30 @@ body > .sidePanel
     font-size: 1em;
     color: #333;
     transition: 0.75s;
+}
+body > .cornerTab
+{
+    top: 47.25em;
+    right: 0em;
+}
+.cornerTab
+{
+    position: absolute;
+    width: 5em;
+    height: 10vh;
+
+    overflow: hidden;
+    transition: 0.75s; /*0.75 or 0.25*/
+    z-index: 2;
+}
+#github
+{
+    position: absolute;
+    font-size: 10vh;
+    right: 0;
+    margin: 0;
+    left: 0.055em;
+    color: red;
+    cursor: pointer;
+    alt: "GitHub Profile";
 }

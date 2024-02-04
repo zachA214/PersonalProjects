@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="screenMesh">
+        <div class="screenMesh" id="screenMesh">
         </div>
         <div class="Content">
             <header>
@@ -17,9 +17,8 @@
                 <h2>About me</h2>
                 <p>My name is Zachary Adelson, I am 21 years old, and I am a third year student at <span>Washington State University</span><br> I study Cybersecurity and I have been a teaching assistant for a year now.</p>
 
-                <a>Hey blud</a>
-                <h2>Mining for minors</h2>
-                <p>My first paragraph.</p>
+                <br>
+                <h2>Explore the site to see projects I have made, my resume, and more</h2>
  
             </div>
         </div>
@@ -27,6 +26,8 @@
             <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
             <link href='https://unpkg.com/css.gg@2.0.0/icons/css/file-document.css' rel='stylesheet'>
             <link href='https://unpkg.com/css.gg@2.0.0/icons/css/games.css' rel='stylesheet'>
+            <link href='https://unpkg.com/css.gg@2.0.0/icons/css/alarm.css' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link href='https://unpkg.com/css.gg@2.0.0/icons/css/bot.css' rel='stylesheet'>
             <ul>
                 <li>
@@ -42,16 +43,19 @@
                     <span class="icon"><i class="gg-games"></i></span>
                     <span class="text">Magic 8 Ball</span>
                 </li>
-                <li>
-                    <span class="icon"><i class="gg-bot"></i></span>
-                    <span class="text">Temp 2</span>
+                <li onclick="location.href = './clock.html'">
+                    <span class="icon"><i class="gg-alarm"></i></span>
+                    <span class="text">Clock</span>
                 </li>
-                <li>
+                <li onclick="window.close()">
                     <span class="icon"><i class="gg-bot"></i></span>
                     <span class="text">Temp 3</span>
                 </li>
             </ul>
-            
         </div>
+        <div class="cornerTab" id="myTab">
+            <span id="github" onclick="window.open('https://github.com/zachA214', '_blank', 'noopener noreferrer');"><i class="fa fa-github"></i></span>
+        </div>
+        <script src="main.js"></script>
     </body>
 </html>

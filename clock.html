@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Clock</title>
+        <link rel="stylesheet" href="clock.css">
+    </head>
+    <body>
+        <p>hi</p>
+        <nav>
+            <a href="./main.html">Main Page</a>
+        </nav>
+        <div class="clock">
+            <div class="hour_hand" id="hour_hand"></div>
+            <div class="minute_hand" id="minute_hand"></div>
+            <div class="second_hand" id="second_hand"></div>
+            <div class="center_circle" id="center_circle"></div>
+        </div>
+        <div class="marks">
+            <div class="vertical_marks">
+                <div id="vmark1"></div>
+                <div id="vmark2"></div>
+            </div>
+            <div class="horizontal_marks">
+                <div id="hmark1"></div>
+                <div id="hmark2"></div>
+            </div>
+        </div>
+        <canvas id="myCanvas" width="200" height="200" onclick="clickTheCircle()"></canvas>
+        <script src="clock.js"></script>
+    </body>
+
+</html>
