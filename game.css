@@ -1,0 +1,105 @@
+html
+{
+    background-image: url(GameBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1
+{
+    height: 5vh;
+    font-size: 6vh;
+    text-decoration: underline;
+    background:#72068a;
+    background-position: center;
+    background-attachment: local;
+    height: 7vh;
+    margin: 0;
+    padding: 3vh;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    color: #000000;
+}
+#gameContainer {
+    text-align: center;
+}
+
+#score {
+    margin-bottom: 1vh;
+    font-size: 3vh;
+}
+
+canvas {
+
+    display: block;
+    margin: 10px auto;
+    background: none;
+    background-image:url(8BallEmpty.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 0em;
+}
+
+#buttonContainer {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #358d38;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.5em;
+    border-color: #7a3c3c;
+    border-style: groove;
+}
+button:hover
+{
+    background-color: #1a5b1c;
+}
+
+#startButton {
+    display: inline-block;
+}
+
+#waitingButton {
+    display: none;
+}
+.home
+{
+    margin: 3px;
+    padding: 8px 11px;
+    background-color: rgb(177, 0, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    border-color: #000000;
+    border-style:groove;
+}
+.home:hover
+{
+ 
+    background-color: rgb(107, 3, 3);
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+#waitingButton
+{
+    background-color: #1c1c1c;
+    color: #6d6d6d;
+}

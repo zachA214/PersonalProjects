@@ -3,6 +3,7 @@ html
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     background-image: url("WebsiteBackground.jpg");
+    background-color: #333;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,6 +15,10 @@ html
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.screenMesh
+{
+    background: grey;
 }
 .Content {
     background: rgba(89, 2, 2, 0.95);
@@ -56,12 +61,16 @@ body > .sidePanel
 .sidePanel:hover
 {
     width: 200px;
-    .text
-    {
-        color: #ffffffe1;
-        transition: 0.75s;
-    }
 }
+.sidePanel:hover .text
+{
+    color: #ffffffe1;
+}
+.sidePanel:hover .icon
+{
+    color: #ffffffe1;
+}
+
 .sidePanel ul
 {
     position: relative;
@@ -101,8 +110,4 @@ body > .sidePanel
     font-size: 1em;
     color: #333;
     transition: 0.75s;
-}
-.sidePanel:hover html
-{
-    background-color: #333;
 }
