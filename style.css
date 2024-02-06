@@ -126,29 +126,3 @@ body > .sidePanel
     color: #333;
     transition: 0.75s;
 }
-body > .cornerTab
-{
-    top: 47.25em;
-    right: 0em;
-}
-.cornerTab
-{
-    position: absolute;
-    width: 5em;
-    height: 10vh;
-
-    overflow: hidden;
-    transition: 0.75s; /*0.75 or 0.25*/
-    z-index: 2;
-}
-#github
-{
-    position: absolute;
-    font-size: 10vh;
-    right: 0;
-    margin: 0;
-    left: 0.055em;
-    color: red;
-    cursor: pointer;
-    alt: "GitHub Profile";
-}
