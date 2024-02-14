@@ -16,6 +16,9 @@ In order to run the code you can either click <a href="https://zacha214.github.i
     <br>
 ### Why a website?
 Although a website wasn't directly connected to my degree or goals for the industry, it does show that I am able to learn new things quickly and actually create with what I've learned.
+    <br> 
+### Most obvious problems
+Going into something new always comes with many challenges, for this project I had to face challenges a well. Firstly, when making the size of my screen I made it on my home desktop monitor, but I found for larger monitors certain attributes would be spaced out weirdly, or on smaller monitors (such as laptops) the entire screen wouldn't fit and a scroll bar would appear when it is hardly neeeded. Secondly, I did not want to get stuck on javascript, so I found myself using a lot of weird CSS tricks to avoid javascript that lead to some weird and incosistent code.
     <br> <br>
 ## Main Page
 The idea for the main page was to introduce myself in a very clear and concise way, I added a background of my university, Wasington State University, to add more connection with myself.
