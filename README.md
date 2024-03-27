@@ -1,8 +1,19 @@
-# PersonalProjects
-This Repo was created on <strong>10/21/2023</strong> at <strong>1:24am</strong>.
+# Windows Keylogger
+This Branch was created on <strong>3/27/2024</strong> at <strong>2:32pm</strong>.
 
-Filled with any personal projects (non-college related) that i have completed or am working on.
+# Goals
+Create a keylogger that takes a users keystrokes and writes the result to a txt file
+<br>
+Potentially adding encryption to my txt file so it cant just be read raw
+<br>
 
-Projects will range from larger scale projects such as games, applications, etc. to smaller scale projects such as testing basic data structures and algorithms.
+# Documentation
 
-Each project will have its own branch.
+## How to run
+You must download the code to run it, and then your keystrokes will begin to be read, press ESC to close the keylogger
+    <br>
+### Why a keylogger?
+I have a passion for learning security and IT related things, and a keylogger seemed like the perfect starter program to make to get familiar with coding in the security space
+    <br> 
+### What doesn't get read?
+Currently the function keys, control, capslock, alt and hotkeys (alt, pageup, pagedown, etc.)
