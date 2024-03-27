@@ -1,0 +1,144 @@
+Key logger inspired by https://gist.github.com/patilswapnilv/7338783
+Keylogger written by Zachary Adelson
+
+Opened on Wed Mar 27 16:23:34 2024
+
+User pressed <d>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <h>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <o>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <w>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <o>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <r>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <d>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <m>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <y>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <p>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <a>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <s>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <s>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <w>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <o>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <r>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <d>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <i>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <s>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <s>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <c>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <r>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <t>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <L>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <O>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <L>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <L>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <L>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <>	|	Time: Wed Mar 27 16:23:34 2024
+
+User pressed <ESC>	|	Time: Wed Mar 27 16:23:34 2024
+
+
+Opened on Wed Mar 27 16:24:47 2024
+
+User pressed <H>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <o>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <c>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <h>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <a>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <w>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <g>	|	Time: Wed Mar 27 16:24:47 2024
+
+User pressed <ESC>	|	Time: Wed Mar 27 16:24:47 2024
+
+
+Opened on Wed Mar 27 16:25:23 2024
+
+User pressed <H>	|	Time: Wed Mar 27 16:25:23 2024
+
+User pressed <e>	|	Time: Wed Mar 27 16:25:24 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:25:24 2024
+
+User pressed <l>	|	Time: Wed Mar 27 16:25:24 2024
+
+User pressed <o>	|	Time: Wed Mar 27 16:25:24 2024
+
+User pressed <Space Bar>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <B>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <L>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <A>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <W>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <G>	|	Time: Wed Mar 27 16:25:25 2024
+
+User pressed <ESC>	|	Time: Wed Mar 27 16:25:25 2024
+
+Closed on Wed Mar 27 16:25:25 2024
