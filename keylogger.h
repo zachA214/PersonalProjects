@@ -7,8 +7,6 @@
 #include <windows.h>
 #include <stdlib.h>
 
-LRESULT CALLBACK LowLevelKeyboardProc( int nCode, WPARAM wParam, LPARAM lParam );
-
 typedef enum myBool
 {
     True, False
